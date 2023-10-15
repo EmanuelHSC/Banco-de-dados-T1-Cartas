@@ -5,9 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...<br>
+Gabriel Barbosa | gblucas180902@gmail.com
+Emanuel Hoffmann | emanuelhoffmann0@hotmail.com
+Izaque Oliveira | izaqueoliveirap@gmail.com
+Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
 ### 2.MINI-MUNDO<br>
