@@ -47,7 +47,7 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 ### 6	MODELO LÓGICO<br>
 
-![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/cdcbf87d-d59a-4f1c-885b-d8fefa14425e)
+![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/dd866d80-b8f4-4280-8070-91c7290e5555)
 
 
 ### 7	MODELO FÍSICO<br>
