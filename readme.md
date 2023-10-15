@@ -17,10 +17,8 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 ### 3.PERGUNTAS A SEREM RESPONDIDAS<br>
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+
+> A Empresa CARTAS precisa inicialmente dos seguintes relatórios:
 * Relatorio que mostre todas as transações feita entre jogadores dizendo o valor, hora, item, quem vendeu e quem comprou.
 * Relatorio que mostre todas as informações de perfis cadastrados, com nome, cpf, dataNascimento, endereço, email, login e senha.
 * Relatorio com todos os decks feitos, mostrando o jogador que pertence o deck, cartas que estão no deck com seus atributos que são nome da carta, coleção, número, tipo, raridade, desgaste da carta e quantidade disponível.
