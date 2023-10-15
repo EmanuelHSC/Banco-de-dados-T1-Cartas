@@ -51,7 +51,7 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
 ### 7	MODELO FÍSICO<br>
-
+### falta ajustar ( vou tirar um cochilo ja ja volto ) estou mexendo
 	CREATE TABLE Cartas (
 	numero_carta INT PRIMARY KEY,
 	descricao_carta TEXT,
