@@ -40,15 +40,18 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: [Rodolfo Oliveira]
+    [Grupo02]: [Artur cremasco]
 
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
-    
     EXEMPLO:
+    
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    CARTAS: Tabela que armazena as informações de cada cartas<br>
+    ENDEREÇO: Tabela que informa as informações de endereço que são ligadas ao cliente<br>
+    DECK: Tabela que contem varias cartas de um mesmo joador
+    
 
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
 
