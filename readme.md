@@ -51,9 +51,35 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
 
+	CREATE TABLE Cartas (
+	numero_carta INT PRIMARY KEY,
+	descricao_carta TEXT,
+	nome_carta VARCHAR(255),
+	id_grupo INT,
+	valor DECIMAL(10, 2)
+	);
+	
+	CREATE TABLE Pessoa (
+	id_pessoa INT PRIMARY KEY,
+	nome VARCHAR(255),
+	cpf CHAR(11),
+	data_nasc DATE,
+	email VARCHAR(255)
+	);
+	
+	CREATE TABLE Endereco (
+	id_end INT PRIMARY KEY,
+	estado VARCHAR(255),
+	cidade VARCHAR(255),
+	cep NVARCHAR(8),
+	logradouro VARCHAR(255)
+	);
+	
+	CREATE TABLE deck (
+	id_carta INT PRIMARY KEY,
+	tipo_deck VARCHAR(255)
+	);
       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) Script das instruções relativas a inclusão de dados 
