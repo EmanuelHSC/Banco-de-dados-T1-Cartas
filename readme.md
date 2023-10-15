@@ -5,9 +5,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Gabriel Barbosa | gblucas180902@gmail.com
-Emanuel Hoffmann | emanuelhoffmann0@hotmail.com
-Izaque Oliveira | izaqueoliveirap@gmail.com
+Gabriel Barbosa | gblucas180902@gmail.com<br>
+Emanuel Hoffmann | emanuelhoffmann0@hotmail.com<br>
+Izaque Oliveira | izaqueoliveirap@gmail.com<br>
 Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
