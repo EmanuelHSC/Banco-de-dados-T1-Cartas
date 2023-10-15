@@ -27,26 +27,16 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
     
 ### 5.MODELO CONCEITUAL<br>
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
-    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
-    C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
-    D) Qualidade e Clareza
-        Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
-    
+![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/ce7efa25-b4af-41bf-af58-11747efb9f0f)
     
 #### 5.1 Validação do Modelo Conceitual
+    
     [Grupo01]: [Rodolfo Oliveira]
     [Grupo02]: [Artur cremasco]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    EXEMPLO:
-    
+
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CARTAS: Tabela que armazena as informações de cada cartas<br>
     ENDEREÇO: Tabela que informa as informações de endereço que são ligadas ao cliente<br>
