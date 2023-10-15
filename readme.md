@@ -46,9 +46,9 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/cdcbf87d-d59a-4f1c-885b-d8fefa14425e)
+
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
