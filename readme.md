@@ -40,7 +40,7 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CARTAS: Tabela que armazena as informações de cada cartas<br>
     ENDEREÇO: Tabela que informa as informações de endereço que são ligadas ao cliente<br>
-    DECK: Tabela que contem varias cartas de um mesmo joador
+    DECK: Tabela que contem varias cartas de um mesmo jogador
     
 
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
