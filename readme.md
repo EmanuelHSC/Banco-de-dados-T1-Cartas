@@ -91,6 +91,7 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+    Link para o Google Collab: https://colab.research.google.com/drive/10ci9CFayCj2BKYTozd7JU8E9mpNHHzVw?usp=sharing
     OBS: Usa template da disciplina disponibilizado no Colab.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
