@@ -49,7 +49,6 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 ![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/dd866d80-b8f4-4280-8070-91c7290e5555)
 
-![novo 5](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/b348c6ca-fed3-4181-8373-6b473e949bc0)
 
 ### 7	MODELO FÍSICO<br>
 ### falta ajustar ( vou tirar um cochilo ja ja volto ) estou mexendo
