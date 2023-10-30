@@ -52,34 +52,78 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 ### 7	MODELO FÍSICO<br>
 ### falta ajustar ( vou tirar um cochilo ja ja volto ) estou mexendo
-	CREATE TABLE Cartas (
-	numero_carta INT PRIMARY KEY,
-	descricao_carta TEXT,
-	nome_carta VARCHAR(255),
-	id_grupo INT,
-	valor DECIMAL(10, 2)
-	);
-	
-	CREATE TABLE Pessoa (
-	id_pessoa INT PRIMARY KEY,
-	nome VARCHAR(255),
-	cpf CHAR(11),
-	data_nasc DATE,
-	email VARCHAR(255)
-	);
-	
-	CREATE TABLE Endereco (
-	id_end INT PRIMARY KEY,
-	estado VARCHAR(255),
-	cidade VARCHAR(255),
-	cep NVARCHAR(8),
-	logradouro VARCHAR(255)
-	);
-	
-	CREATE TABLE deck (
-	id_carta INT PRIMARY KEY,
-	tipo_deck VARCHAR(255)
-	);
+	DROP TABLE IF EXISTS estado   CASCADE;
+DROP TABLE IF EXISTS status   CASCADE;
+DROP TABLE IF EXISTS endereco CASCADE;
+DROP TABLE IF EXISTS jogador  CASCADE;
+DROP TABLE IF EXISTS carta 	  CASCADE;
+DROP TABLE IF EXISTS deck 	  CASCADE;
+DROP TABLE IF EXISTS venda 	  CASCADE;
+
+CREATE TABLE estado(
+	id_estado SERIAL PRIMARY KEY,
+	desc_estd VARCHAR(50),
+	sigla VARCHAR(2)
+);
+
+CREATE TABLE status(
+	id_status SERIAL PRIMARY KEY,
+	desc_status VARCHAR(50)
+);
+
+CREATE TABLE endereco(
+	id_end SERIAL PRIMARY KEY,
+	cep NUMERIC,
+	FK_id_estado INTEGER,
+	FOREIGN KEY(FK_id_estado)
+	REFERENCES ESTADO(id_estado)	
+);
+
+CREATE TABLE jogador(
+	id_jogador SERIAL PRIMARY KEY,
+	nome VARCHAR(100),
+	cpf NUMERIC,
+	dt_nasc DATE,
+	email VARCHAR(100),
+	FK_id_end INTEGER,
+	FOREIGN KEY(FK_id_end)
+	REFERENCES ENDERECO(id_end)
+);
+
+CREATE TABLE carta(
+	id_carta SERIAL PRIMARY KEY,
+	nome_card VARCHAR(100),
+	preco FLOAT,
+	FK_id_jogador INTEGER,
+	FOREIGN KEY(FK_id_jogador)
+	REFERENCES JOGADOR(id_jogador),
+	FK_id_status INTEGER,
+	FOREIGN KEY(FK_id_status)
+	REFERENCES STATUS(id_status)
+);
+
+CREATE TABLE deck(
+	cod_table SERIAL PRIMARY KEY,
+	id_deck SERIAL,
+	nome VARCHAR(50),
+	FK_id_carta INTEGER,
+	FOREIGN KEY(FK_id_carta)
+	REFERENCES CARTA(id_carta),
+	FK_id_jogador INTEGER,
+	FOREIGN KEY(FK_id_jogador)
+	REFERENCES JOGADOR(id_jogador)
+);
+
+CREATE TABLE venda(
+	id_venda SERIAL PRIMARY KEY,
+	dt_venda DATE,
+	FK_id_carta INTEGER,
+	FOREIGN KEY(FK_id_carta)
+	REFERENCES CARTA(id_carta),
+	FK_id_jogador INTEGER,
+	FOREIGN KEY(FK_id_jogador)
+	REFERENCES JOGADOR(id_jogador)
+)
       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) Script das instruções relativas a inclusão de dados 
