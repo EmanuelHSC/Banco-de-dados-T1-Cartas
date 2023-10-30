@@ -210,6 +210,22 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/e7337ae7-c277-42a0-8ce2-fd3626f0824f)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/c7dcc995-e554-4af7-b01f-2f0c1b94ff0e)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/c9a3ef15-c74d-4202-b1c9-726ab1460dab)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/43eac677-7bdf-4025-90a6-b0cec7fb3085)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/7f15c82f-6eac-4432-95fd-fd2e01e29ada)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/c32823a8-0f9d-45eb-88d5-51905e0e47c7)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/bdc714ba-259f-49c8-bf96-2ac9fee0e21d)
+
+
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
