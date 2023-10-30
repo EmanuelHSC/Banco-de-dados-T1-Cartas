@@ -38,10 +38,48 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 #### 5.2 Descrição dos dados 
 
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CARTAS: Tabela que armazena as informações de cada cartas<br>
-    ENDEREÇO: Tabela que informa as informações de endereço que são ligadas ao cliente<br>
-    DECK: Tabela que contem varias cartas de um mesmo jogador
+	Tabela estado:
+	id_estado (Chave primária serial): Identificador único para cada estado.
+	desc_estd (VARCHAR(50)): Descrição do estado.
+	sigla (VARCHAR(2)): Sigla do estado.
+	
+ 	Tabela status:
+	id_status (Chave primária serial): Identificador único para cada status.
+	desc_status (VARCHAR(50)): Descrição do status.
+	
+ 
+	Tabela endereco:
+	id_end (Chave primária serial): Identificador único para cada endereço.
+	cep (NUMERIC): Código de Endereçamento Postal (CEP).
+	FK_id_estado (INTEGER): Chave estrangeira que se refere ao id_estado na tabela estado.
+	
+ 	Tabela jogador:
+	id_jogador (Chave primária serial): Identificador único para cada jogador.
+	nome (VARCHAR(100)): Nome do jogador.
+	cpf (NUMERIC): Número de CPF do jogador.
+	dt_nasc (DATE): Data de nascimento do jogador.
+	email (VARCHAR(100)): Endereço de e-mail do jogador.
+	FK_id_end (INTEGER): Chave estrangeira que se refere ao id_end na tabela endereco.
+	
+ 	Tabela carta:
+	id_carta (Chave primária serial): Identificador único para cada carta.
+	nome_card (VARCHAR(100)): Nome da carta.
+	preco (FLOAT): Preço da carta.
+	FK_id_jogador (INTEGER): Chave estrangeira que se refere ao id_jogador na tabela jogador.
+	FK_id_status (INTEGER): Chave estrangeira que se refere ao id_status na tabela status.
+	
+	Tabela deck:
+	cod_table (Chave primária serial): Identificador único para cada registro na tabela deck.
+	id_deck (SERIAL): Identificador do deck.
+	nome (VARCHAR(50)): Nome do deck.
+	FK_id_carta (INTEGER): Chave estrangeira que se refere ao id_carta na tabela carta.
+	FK_id_jogador (INTEGER): Chave estrangeira que se refere ao id_jogador na tabela jogador.
+	
+ 	Tabela venda:
+	id_venda (Chave primária serial): Identificador único para cada venda.
+	dt_venda (DATE): Data da venda.
+	FK_id_carta (INTEGER): Chave estrangeira que se refere ao id_carta na tabela carta.
+	FK_id_jogador (INTEGER): Chave estrangeira que se refere ao id_jogador na tabela jogador.
     
 
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
