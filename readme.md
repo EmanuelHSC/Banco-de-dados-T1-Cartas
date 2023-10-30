@@ -28,8 +28,9 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
     
 ### 5.MODELO CONCEITUAL<br>
         
-![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/ce7efa25-b4af-41bf-af58-11747efb9f0f)
-    
+
+![trabalho_ct_final](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/f2d56cb9-c425-4e4b-b8a4-e57be31353c6)
+
 #### 5.1 Validação do Modelo Conceitual
     
     [Grupo01]: [Rodolfo Oliveira]
@@ -47,95 +48,166 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 ### 6	MODELO LÓGICO<br>
 
-![image](https://github.com/EmanuelHSC/TemplateBD1/assets/116691668/dd866d80-b8f4-4280-8070-91c7290e5555)
+![trabalho_log_final](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/b833c5ba-255b-4001-86b8-49f99c441623)
 
 
 ### 7	MODELO FÍSICO<br>
-### falta ajustar ( vou tirar um cochilo ja ja volto ) estou mexendo
+
 	DROP TABLE IF EXISTS estado   CASCADE;
-DROP TABLE IF EXISTS status   CASCADE;
-DROP TABLE IF EXISTS endereco CASCADE;
-DROP TABLE IF EXISTS jogador  CASCADE;
-DROP TABLE IF EXISTS carta 	  CASCADE;
-DROP TABLE IF EXISTS deck 	  CASCADE;
-DROP TABLE IF EXISTS venda 	  CASCADE;
-
-CREATE TABLE estado(
-	id_estado SERIAL PRIMARY KEY,
-	desc_estd VARCHAR(50),
-	sigla VARCHAR(2)
-);
-
-CREATE TABLE status(
-	id_status SERIAL PRIMARY KEY,
-	desc_status VARCHAR(50)
-);
-
-CREATE TABLE endereco(
-	id_end SERIAL PRIMARY KEY,
-	cep NUMERIC,
-	FK_id_estado INTEGER,
-	FOREIGN KEY(FK_id_estado)
-	REFERENCES ESTADO(id_estado)	
-);
-
-CREATE TABLE jogador(
-	id_jogador SERIAL PRIMARY KEY,
-	nome VARCHAR(100),
-	cpf NUMERIC,
-	dt_nasc DATE,
-	email VARCHAR(100),
-	FK_id_end INTEGER,
-	FOREIGN KEY(FK_id_end)
-	REFERENCES ENDERECO(id_end)
-);
-
-CREATE TABLE carta(
-	id_carta SERIAL PRIMARY KEY,
-	nome_card VARCHAR(100),
-	preco FLOAT,
-	FK_id_jogador INTEGER,
-	FOREIGN KEY(FK_id_jogador)
-	REFERENCES JOGADOR(id_jogador),
-	FK_id_status INTEGER,
-	FOREIGN KEY(FK_id_status)
-	REFERENCES STATUS(id_status)
-);
-
-CREATE TABLE deck(
-	cod_table SERIAL PRIMARY KEY,
-	id_deck SERIAL,
-	nome VARCHAR(50),
-	FK_id_carta INTEGER,
-	FOREIGN KEY(FK_id_carta)
-	REFERENCES CARTA(id_carta),
-	FK_id_jogador INTEGER,
-	FOREIGN KEY(FK_id_jogador)
-	REFERENCES JOGADOR(id_jogador)
-);
-
-CREATE TABLE venda(
-	id_venda SERIAL PRIMARY KEY,
-	dt_venda DATE,
-	FK_id_carta INTEGER,
-	FOREIGN KEY(FK_id_carta)
-	REFERENCES CARTA(id_carta),
-	FK_id_jogador INTEGER,
-	FOREIGN KEY(FK_id_jogador)
-	REFERENCES JOGADOR(id_jogador)
-)
+	DROP TABLE IF EXISTS status   CASCADE;
+	DROP TABLE IF EXISTS endereco CASCADE;
+	DROP TABLE IF EXISTS jogador  CASCADE;
+	DROP TABLE IF EXISTS carta 	  CASCADE;
+	DROP TABLE IF EXISTS deck 	  CASCADE;
+	DROP TABLE IF EXISTS venda 	  CASCADE;
+	
+	CREATE TABLE estado(
+		id_estado SERIAL PRIMARY KEY,
+		desc_estd VARCHAR(50),
+		sigla VARCHAR(2)
+	);
+	
+	CREATE TABLE status(
+		id_status SERIAL PRIMARY KEY,
+		desc_status VARCHAR(50)
+	);
+	
+	CREATE TABLE endereco(
+		id_end SERIAL PRIMARY KEY,
+		cep NUMERIC,
+		FK_id_estado INTEGER,
+		FOREIGN KEY(FK_id_estado)
+		REFERENCES ESTADO(id_estado)	
+	);
+	
+	CREATE TABLE jogador(
+		id_jogador SERIAL PRIMARY KEY,
+		nome VARCHAR(100),
+		cpf NUMERIC,
+		dt_nasc DATE,
+		email VARCHAR(100),
+		FK_id_end INTEGER,
+		FOREIGN KEY(FK_id_end)
+		REFERENCES ENDERECO(id_end)
+	);
+	
+	CREATE TABLE carta(
+		id_carta SERIAL PRIMARY KEY,
+		nome_card VARCHAR(100),
+		preco FLOAT,
+		FK_id_jogador INTEGER,
+		FOREIGN KEY(FK_id_jogador)
+		REFERENCES JOGADOR(id_jogador),
+		FK_id_status INTEGER,
+		FOREIGN KEY(FK_id_status)
+		REFERENCES STATUS(id_status)
+	);
+	
+	CREATE TABLE deck(
+		cod_table SERIAL PRIMARY KEY,
+		id_deck SERIAL,
+		nome VARCHAR(50),
+		FK_id_carta INTEGER,
+		FOREIGN KEY(FK_id_carta)
+		REFERENCES CARTA(id_carta),
+		FK_id_jogador INTEGER,
+		FOREIGN KEY(FK_id_jogador)
+		REFERENCES JOGADOR(id_jogador)
+	);
+	
+	CREATE TABLE venda(
+		id_venda SERIAL PRIMARY KEY,
+		dt_venda DATE,
+		FK_id_carta INTEGER,
+		FOREIGN KEY(FK_id_carta)
+		REFERENCES CARTA(id_carta),
+		FK_id_jogador INTEGER,
+		FOREIGN KEY(FK_id_jogador)
+		REFERENCES JOGADOR(id_jogador)
+	)
       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) Script das instruções relativas a inclusão de dados 
-	Requisito mínimo: (Script dev conter: Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        OBS
-	1) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
-        2) script deve ser incluso no template em um arquivo no formato .SQL
+       
+	INSERT INTO estado VALUES
+	(01,'Rio de Janeiro','RJ'),
+	(02,'Espírito Santo','ES'),
+	(03,'São Paulo','SP');
+	
+	INSERT INTO status VALUES
+	(01,'Em deck'),
+	(02,'Em venda'),
+	(03,'Vendido'),
+	(04,'Sem deck');
+	
+	INSERT INTO endereco VALUES
+	(01,29156579,02),
+	(02,37456302,03),
+	(03,32121251,03),
+	(04,54414410,01);
+	
+	INSERT INTO jogador VALUES
+	(01,'Victor Emerson',211313,'2001/04/15','vsiqeui@gmail.com',03),
+	(02,'Gilberto Souza',451300,'2000/01/01','gilsouza@gmail.com',01),
+	(03,'Aluízio Soares',641101,'1999/12/20','alsoares@gmail.com',02),
+	(04,'Emanuel Hoffma',656416,'1997/10/03','emnoida@gmail.com',04);
+	
+	INSERT INTO carta VALUES
+	(01,'Dragão de Fogo',50.00,01,01),
+	(02,'Ressonador da Alma',150.65,01,01),
+	(03,'Casulo Vermelho',37.80,01,01),
+	(04,'Gaia Carmesim',200.00,01,04),
+	(05,'Dragão Vermelho',77.99,01,02),
+	(06,'Abrasador Dragão',64.64,02,01),
+	(07,'Comandar Ressonador',98.31,02,01),
+	(08,'Destruição do Ressonante',365.12,02,02),
+	(09,'Motor do Ressonador',99.99,02,04),
+	(10,'Rei Supremo',50.00,02,01),
+	(11,'Rei Celestial Supremo',45.98,02,02),
+	(12,'Dragão Arcray',64.65,03,04),
+	(13,'Alma do Rei',74.64,03,04),
+	(14,'Dragão Pêndulo',14.99,03,04),
+	(15,'Anciã Norden',64.30,03,01),
+	(16,'Trapezoedro Proibido',241.12,03,04),
+	(17,'Salamandra Foguete',303.63,03,02),
+	(18,'Atordoamento Sônico',65.99,03,02),
+	(19,'Canhão Alabarda',71.99,03,01),
+	(20,'Destruidor Laminado',65.12,03,01),
+	(21,'Dragão Catapulta',98.65,03,01),
+	(22,'Esqueleto de Metal',100.00,04,01),
+	(23,'Explosão Estelar',126.63,04,01),
+	(24,'Gladiador Poderoso',98.32,04,02),
+	(25,'Destruidor Laminado',65.64,04,04),
+	(26,'Visas Samsara',35.99,04,04),
+	(27,'Abscisão Mannadium',31.40,04,04),
+	(28,'Riumheart',50.00,04,04),
+	(29,'Bétula Olho de Cobra',60.00,04,01);
+	
+	INSERT INTO deck VALUES
+	(01,01,'Ataque',01,01),
+	(02,01,'Ataque',02,01),
+	(03,01,'Ataque',03,01),
+	(04,02,'Defesa Grande',06,02),
+	(05,02,'Defesa Grande',07,02),
+	(06,02,'Defesa Grande',10,02),
+	(07,03,'Neutro',15,03),
+	(08,03,'Neutro',19,03),
+	(09,03,'Neutro',20,03),
+	(10,03,'Neutro',21,03),
+	(11,04,'Morte Súbita',22,04),
+	(12,04,'Morte Súbita',23,04),
+	(13,04,'Morte Súbita',29,04);
+	
+	INSERT INTO venda VALUES
+	(01,'2023-10-31 10:00:00',05,01),
+	(02,'2023-11-16 23:21:00',08,02),
+	(03,'2022-09-25 15:52:00',11,02),
+	(04,'2023-05-21 10:30:00',17,03),
+	(05,'2023-05-20 10:30:00',18,03),
+	(06,'2023-06-20 10:30:00',24,04);
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    Link para o Google Collab: https://colab.research.google.com/drive/10ci9CFayCj2BKYTozd7JU8E9mpNHHzVw?usp=sharing
-    OBS: Usa template da disciplina disponibilizado no Colab.<br>
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
