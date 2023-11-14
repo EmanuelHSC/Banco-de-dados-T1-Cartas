@@ -301,11 +301,19 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 #### 9.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
     a) Criar minimo 3 de exclusão
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/d9816b8c-d0e6-4243-b3e3-6a8ca9e28cdf)
+
     b) Criar minimo 3 de atualização
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/54148d7b-bbdc-49ac-878a-be0f16bd0236)
 
 #### 9.6	CONSULTAS COM INNER JOIN E ORDER BY (Mínimo 6)<br>
     a) Uma junção que envolva todas as tabelas possuindo no mínimo 2 registros no resultado
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/dc7cd768-0292-4a93-8370-ec5025e55c88)
+
     b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/6609fa47-c476-45bf-b94d-eb09c86559b9)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/48ed4979-7552-4e21-87a1-e4729475b305)
+
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
     a) Criar minimo 2 envolvendo algum tipo de junção
@@ -323,12 +331,14 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
-	
-b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/c2844a83-b86d-4588-a9b1-4e0d1a8f13f5)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/29a85751-51b3-4f0f-aa17-ec2e26cfb347)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/e08c70a0-e6b9-4f3a-861e-5baa98653292)
+
 
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
      a) Criar minimo 1 envolvendo GROUP BY
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/df0eb230-0056-4583-bce2-b54caffcdaa2)
 
      b) Criar minimo 1 envolvendo algum tipo de junção
 ![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/cd9320a0-1e83-44c1-a7c0-484e4f5efc14)
