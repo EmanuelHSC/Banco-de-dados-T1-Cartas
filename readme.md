@@ -265,15 +265,37 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/9438d363-3ef2-4100-83da-e5a1b080f2bf)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/5a2f4196-6c59-4dda-8a6b-622d69e4eba4)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/ae373e53-264e-4fa6-8190-e3595d267e96)
+
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/328f616a-f6b5-4a39-9fbb-4e5ea661e9e1)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/a435ca86-8454-41fd-ad95-67919ea02892)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/adbd184f-cefe-4e32-a694-16ca5ccf1e32)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/c2b2a797-3a46-4af9-85f1-8ef183a62c61)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/87a9c405-9951-42c3-8448-f468440752f9)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/51ce2ca1-c733-462a-9422-256e37f07022)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/c23bc14f-2a51-485d-8b12-9712ac4f9721)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/e8490bd0-c794-493c-adfc-df274e660bee)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/d9685b35-9c56-4e2f-a5ac-76cd3b1a4a31)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/76f0c758-9ded-48b4-b889-bd3667c6afca)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/26df94f0-399d-4691-ac0c-424ec430ce69)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/e6774b39-6a26-42a3-afc0-4fa489781c5b)
+
+
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/d4baabf4-2cf4-4ae1-8e56-43138a5d2551)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/caed4726-1ae3-4e52-b572-7e9423c424e3)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/65ba4728-f9e0-400d-a6f4-05ee2e849d06)
+
     b) Criar uma consulta para cada tipo de função data apresentada.
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/9dfef22a-36b6-4378-a5a8-6572b9e95d4a)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/0a8c4b28-76a2-4799-ada0-4a7acceda5fc)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/62f26f99-a4b4-43b1-8be6-8657e43592fd)
 
 ># Marco de Entrega 02: Do item 6. até o item 9.1 (5 PTS) <br>
 
@@ -287,17 +309,30 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
     a) Criar minimo 2 envolvendo algum tipo de junção
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/d04f7e09-9983-4282-83a5-f8d4f6519bc6)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/6968ec92-d786-47b1-ab5f-448b81da4211)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/18874349-6e34-40f5-a726-5d1e4ff65088)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/a99b89e9-140a-4b32-8d86-4c2152b830cf)
+
 
 #### 9.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)<br>
     a) Criar minimo 1 de cada tipo
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/f8f1d5c0-ce8f-400c-bdb3-9d533ec8d79d)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/12682e14-2a1d-4b51-ab79-87453a6328e2)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/eaaf54e2-aacf-4003-9533-185a5e8cf6ba)
+
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
+	
+b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
      a) Criar minimo 1 envolvendo GROUP BY
+
      b) Criar minimo 1 envolvendo algum tipo de junção
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/103284616/cd9320a0-1e83-44c1-a7c0-484e4f5efc14)
+
 
 ># Marco de Entrega 03: Do item 9.2 até o ítem 9.10 (10 PTS)<br>
 
