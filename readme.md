@@ -246,6 +246,8 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
+Collab: https://colab.research.google.com/drive/10ci9CFayCj2BKYTozd7JU8E9mpNHHzVw#scrollTo=_ptOT_x93l8e
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 ![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/e7337ae7-c277-42a0-8ce2-fd3626f0824f)
