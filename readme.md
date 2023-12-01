@@ -24,7 +24,7 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 * Relatorio com todos os decks feitos, mostrando o jogador que pertence o deck, cartas que estão no deck com seus atributos que são nome da carta, coleção, número, tipo, raridade, desgaste da carta e quantidade disponível.
 * Relatorio referente a vendas que vai conter qual usuario que vendeu mais cartas com as informações do usuario e das cartas.
 * Relatorio de cartas, onde mostre todas as cartas cadastradas com suas informações agrupando a por quantidade da mesma carta
-* 5_Relatório de cartas, onde mostre todas as cartas cadastradas com suas informações agrupando a por pelo valor médio
+
 
     
 ### 5.MODELO CONCEITUAL<br>
