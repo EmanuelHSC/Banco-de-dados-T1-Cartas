@@ -31,7 +31,9 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 ### 5.MODELO CONCEITUAL<br>
         
 
-![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/a593a6ee-0a9a-4234-933f-7c18bf3cdc99)
+
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/42b05946-dc3f-430e-b83f-f557d64ba569)
+
 
 
 
