@@ -19,11 +19,11 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
 > A Empresa CARTAS precisa inicialmente dos seguintes relatórios:
-* Relatorio que mostre todas as transações feita entre jogadores dizendo o valor, hora, item, quem vendeu e quem comprou.
-* Relatorio que mostre todas as informações de perfis cadastrados, com nome, cpf, dataNascimento, endereço, email, login e senha.
-* Relatorio com todos os decks feitos, mostrando o jogador que pertence o deck, cartas que estão no deck com seus atributos que são nome da carta, coleção, número, tipo, raridade, desgaste da carta e quantidade disponível.
-* Relatorio referente a vendas que vai conter qual usuario que vendeu mais cartas com as informações do usuario e das cartas.
-* Relatorio de cartas, onde mostre todas as cartas cadastradas com suas informações agrupando a por quantidade da mesma carta
+* Relatorio que mostre de onde são as pessoas que usam o site.
+* Relatorio que informa top 5 vendedores de cartas.
+* Relatório que mostre quantas cartas do tipo dragão nós temos no sistema e seus respectivos preços.
+* Relatório com top 5 vendas do site.
+* Relatório de preço das cartas das pessoas.
 
 
     
