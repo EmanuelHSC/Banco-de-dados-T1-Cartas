@@ -30,7 +30,7 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 ### 5.MODELO CONCEITUAL<br>
         
 
-![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/a79a4f0c-88ff-4fdb-9131-620e78de9913)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/258fd795-d77e-4cd9-9d09-200ebed0d303)
 
 
 
