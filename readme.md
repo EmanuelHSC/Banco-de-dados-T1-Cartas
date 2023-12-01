@@ -181,13 +181,26 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 	(01,29156579,02),
 	(02,37456302,03),
 	(03,32121251,03),
-	(04,54414410,01);
+	(04,54414410,01),
+	(04,'Minas Gerais','MG'),
+	(05,'Bahia','BA'),
+	(06,'Paraná','PR'),
+	(07,'Ceará','CE'),
+	(08,'Amazonas','AM');
+
 	
 	INSERT INTO jogador VALUES
 	(01,'Victor Emerson',211313,'2001/04/15','vsiqeui@gmail.com',03),
 	(02,'Gilberto Souza',451300,'2000/01/01','gilsouza@gmail.com',01),
 	(03,'Aluízio Soares',641101,'1999/12/20','alsoares@gmail.com',02),
-	(04,'Emanuel Hoffma',656416,'1997/10/03','emnoida@gmail.com',04);
+	(04,'Emanuel Hoffma',656416,'1997/10/03','emnoida@gmail.com',04)
+ 	(05,'Amanda Silva',987654,'1995/08/20','amanda@gmail.com',05),
+	(06,'Lucas Oliveira',123456,'1998/03/12','lucas@gmail.com',06),
+	(07,'Juliana Santos',456789,'2002/06/25','juliana@gmail.com',07),
+	(08,'Rafael Souza',789012,'1990/12/01','rafael@gmail.com',08),
+	(09,'Fernanda Lima',345678,'1997/05/18','fernanda@gmail.com',09);
+	(10,'Mariana Costa',33221144556,'1996/12/05','mariana@gmail.com',09),
+	(11,'Pedro Lima',11223344556,'1997/04/30','pedro@gmail.com',06);
 	
 	INSERT INTO carta VALUES
 	(01,'Dragão de Fogo',50.00,01,01),
@@ -218,7 +231,29 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 	(26,'Visas Samsara',35.99,04,04),
 	(27,'Abscisão Mannadium',31.40,04,04),
 	(28,'Riumheart',50.00,04,04),
-	(29,'Bétula Olho de Cobra',60.00,04,01);
+	(29,'Bétula Olho de Cobra',60.00,04,01),
+	(30,'Cavaleiro do Abismo',80.00,05,03),
+	(31,'Espectro Sombrio',45.50,05,01),
+	(32,'Fênix Resplandecente',120.75,05,04),
+	(33,'Guardião das Estrelas',180.00,06,02),
+	(34,'Fúria Flamejante',95.99,06,02),
+	(35,'Serpente Venenosa',30.50,06,01),
+	(36,'Dragão do Trovão',150.00,07,04),
+	(37,'Tormenta Congelante',110.25,07,04),
+	(38,'Anjo da Justiça',65.80,07,01),
+	(39,'Dragão de Cristal',200.00,08,02),
+	(40,'Titã Colossal',250.50,08,04),
+	(41,'Leviatã Aquático',120.30,08,01),
+	(42,'Demônio Sombrio',70.99,09,01),
+	(43,'Arcanjo Radiante',95.60,09,02),
+	(44,'Dragão da Tempestade',180.99,09,04),
+	(45,'Fera da Selva',40.00,09,01),
+	(46,'Elemental da Terra',60.50,10,03),
+	(47,'Espírito da Floresta',85.75,10,01),
+	(48,'Gigante de Pedra',110.00,10,02),
+	(49,'Sombra da Noite',55.25,10,04),
+	(50,'Lobo Selvagem',35.80,11,01);
+
 	
 	INSERT INTO deck VALUES
 	(01,01,'Ataque',01,01),
@@ -233,7 +268,12 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 	(10,03,'Neutro',21,03),
 	(11,04,'Morte Súbita',22,04),
 	(12,04,'Morte Súbita',23,04),
-	(13,04,'Morte Súbita',29,04);
+	(13,04,'Morte Súbita',29,04),
+	(14,04,'Deck Magia',30,05),
+	(15,05,'Deck Monstros',38,06),
+	(16,06,'Deck Épicos',42,07),
+	(17,07,'Deck Raros',45,08),
+	(18,08,'Deck Lendários',50,09);
 	
 	INSERT INTO venda VALUES
 	(01,'2023-10-31 10:00:00',05,01),
@@ -241,7 +281,12 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 	(03,'2022-09-25 15:52:00',11,02),
 	(04,'2023-05-21 10:30:00',17,03),
 	(05,'2023-05-20 10:30:00',18,03),
-	(06,'2023-06-20 10:30:00',24,04);
+	(06,'2023-06-20 10:30:00',24,04),
+	(07,'2023-07-15 14:45:00',34,06),
+	(08,'2023-08-02 18:20:00',37,07),
+	(09,'2023-09-10 11:10:00',41,08),
+	(10,'2023-11-01 09:30:00',46,09),
+	(11,'2023-11-25 16:05:00',50,09);
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
