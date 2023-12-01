@@ -30,7 +30,8 @@ Victor Emerson | vsiqueiradesouza@gmail.com <br>
 ### 5.MODELO CONCEITUAL<br>
         
 
-![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/113af997-4f3e-4020-9db2-c2636cb6d4e1)
+![image](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/a79a4f0c-88ff-4fdb-9131-620e78de9913)
+
 
 
 #### 5.1 Validação do Modelo Conceitual
