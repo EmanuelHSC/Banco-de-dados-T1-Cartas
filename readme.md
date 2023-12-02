@@ -20,11 +20,11 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
 > A Empresa CARTAS precisa inicialmente dos seguintes relatórios:
-* Relatorio que mostre de onde são as pessoas que usam o site.
-* Relatorio que informa top 5 vendedores de cartas.
+* Relatorio que mostre qual região tem mais gente.
+* Relatorio que informa quantidade de cartas vendidas por vendedor.
 * Relatório que mostre quantas cartas do tipo dragão nós temos no sistema e seus respectivos preços.
 * Relatório com top 5 vendas do site.
-* Relatório de preço das cartas das pessoas.
+* Relatório de preço das cartas somadas das pessoas.
 
 
     
