@@ -42,48 +42,75 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 
 #### 5.2 Descrição dos dados 
 
-	Tabela estado:
-	id_estado (Chave primária serial): Identificador único para cada estado.
-	desc_estd (VARCHAR(50)): Descrição do estado.
-	sigla (VARCHAR(2)): Sigla do estado.
+	Tabela STATUS:
+	id_status: Identificador único do status (chave primária).
+	desc_status: Descrição do status com até 50 caracteres.
 	
- 	Tabela status:
-	id_status (Chave primária serial): Identificador único para cada status.
-	desc_status (VARCHAR(50)): Descrição do status.
+ 	Tabela STATUS_CARTAO:
+	id_status_cartao: Identificador único do status do cartão (chave primária).
+	desc_status: Descrição do status do cartão com até 50 caracteres.
 	
- 
-	Tabela endereco:
-	id_end (Chave primária serial): Identificador único para cada endereço.
-	cep (NUMERIC): Código de Endereçamento Postal (CEP).
-	FK_id_estado (INTEGER): Chave estrangeira que se refere ao id_estado na tabela estado.
+ 	Tabela ENDERECO:
+	id_end: Identificador único do endereço (chave primária).
+	estado: Estado do endereço com até 155 caracteres.
+	cidade: Cidade do endereço com até 155 caracteres.
+	bairro: Bairro do endereço com até 155 caracteres.
+	rua: Rua do endereço com até 155 caracteres.
+	logradouro: Logradouro do endereço com até 155 caracteres.
+	cep: Código de Endereçamento Postal com 8 caracteres.
 	
- 	Tabela jogador:
-	id_jogador (Chave primária serial): Identificador único para cada jogador.
-	nome (VARCHAR(100)): Nome do jogador.
-	cpf (NUMERIC): Número de CPF do jogador.
-	dt_nasc (DATE): Data de nascimento do jogador.
-	email (VARCHAR(100)): Endereço de e-mail do jogador.
-	FK_id_end (INTEGER): Chave estrangeira que se refere ao id_end na tabela endereco.
+ 	Tabela JOGADOR:
+	id_pessoa: Identificador único do jogador (chave primária).
+	nome: Nome do jogador com até 100 caracteres.
+	dt_nasc: Data de nascimento do jogador.
+	email: Endereço de e-mail do jogador com até 100 caracteres.
+	id_end: Chave estrangeira referenciando a tabela ENDERECO.
 	
- 	Tabela carta:
-	id_carta (Chave primária serial): Identificador único para cada carta.
-	nome_card (VARCHAR(100)): Nome da carta.
-	preco (FLOAT): Preço da carta.
-	FK_id_jogador (INTEGER): Chave estrangeira que se refere ao id_jogador na tabela jogador.
-	FK_id_status (INTEGER): Chave estrangeira que se refere ao id_status na tabela status.
+ 	Tabela CARTAO:
+	id_cartao: Identificador único do cartão (chave primária).
+	num_cartao: Número do cartão com 16 dígitos.
+	id_status: Chave estrangeira referenciando a tabela STATUS_CARTAO.
+	cvv: Código de verificação do cartão com 3 caracteres.
+	dt_venc: Data de vencimento do cartão.
+	id_pessoa: Chave estrangeira referenciando a tabela JOGADOR.
 	
-	Tabela deck:
-	cod_table (Chave primária serial): Identificador único para cada registro na tabela deck.
-	id_deck (SERIAL): Identificador do deck.
-	nome (VARCHAR(50)): Nome do deck.
-	FK_id_carta (INTEGER): Chave estrangeira que se refere ao id_carta na tabela carta.
-	FK_id_jogador (INTEGER): Chave estrangeira que se refere ao id_jogador na tabela jogador.
+ 	Tabela TEMA_CARTA:
+	id_tema_carta: Identificador único do tema da carta (chave primária).
+	descricao: Descrição do tema da carta com até 50 caracteres.
+	Tabela TEMA_DECK:
 	
- 	Tabela venda:
-	id_venda (Chave primária serial): Identificador único para cada venda.
-	dt_venda (DATE): Data da venda.
-	FK_id_carta (INTEGER): Chave estrangeira que se refere ao id_carta na tabela carta.
-	FK_id_jogador (INTEGER): Chave estrangeira que se refere ao id_jogador na tabela jogador.
+	id_tema_deck: Identificador único do tema do deck (chave primária).
+	descricao: Descrição do tema do deck com até 50 caracteres.
+	
+ 	Tabela CARTA:
+	id_carta: Identificador único da carta (chave primária).
+	nome_card: Nome da carta com até 100 caracteres.
+	preco: Preço da carta (tipo FLOAT).
+	num_colecionador: Número do colecionador da carta com até 6 caracteres.
+	id_tema: Chave estrangeira referenciando a tabela TEMA_CARTA.
+	id_pessoa: Chave estrangeira referenciando a tabela JOGADOR.
+	id_status: Chave estrangeira referenciando a tabela STATUS.
+	
+ 	Tabela DECK:
+	cod_table: Código da tabela (serial).
+	id_deck: Identificador único do deck.
+	id_tema: Chave estrangeira referenciando a tabela TEMA_DECK.
+	id_carta: Chave estrangeira referenciando a tabela CARTA.
+	id_pessoa: Chave estrangeira referenciando a tabela JOGADOR.
+	
+ 	Tabela NOME_DECK:	
+	id_nome_deck: Identificador único do nome do deck (chave primária).
+	descricao: Descrição do nome do deck com até 50 caracteres.
+	id_deck: Chave estrangeira referenciando a tabela DECK.
+	
+ 	Tabela VENDA:	
+	id_venda: Identificador único da venda (chave primária).
+	dt_venda: Data da venda.
+	preco_venda: Preço da venda (tipo FLOAT).
+	id_carta: Chave estrangeira referenciando a tabela CARTA.
+	id_pessoa: Chave estrangeira referenciando a tabela JOGADOR.
+	id_comprador: Chave estrangeira referenciando a tabela JOGADOR.
+	id_cartao_usado: Chave estrangeira referenciando a tabela CARTAO.
     
 
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
