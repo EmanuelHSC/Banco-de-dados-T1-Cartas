@@ -77,8 +77,8 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
  	Tabela TEMA_CARTA:
 	id_tema_carta: Identificador único do tema da carta (chave primária).
 	descricao: Descrição do tema da carta com até 50 caracteres.
-	Tabela TEMA_DECK:
 	
+ 	Tabela TEMA_DECK:
 	id_tema_deck: Identificador único do tema do deck (chave primária).
 	descricao: Descrição do tema do deck com até 50 caracteres.
 	
