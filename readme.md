@@ -133,7 +133,7 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 	);
 	
 	CREATE TABLE IF NOT EXISTS ENDERECO(
-		id_end     SERIAL PRIMARY KEY,
+		id_endereco     SERIAL PRIMARY KEY,
 		estado     VARCHAR(155),
 		cidade 	   VARCHAR(155),
 		bairro     VARCHAR(155),
@@ -147,7 +147,7 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 		nome       VARCHAR(100),
 		dt_nasc    DATE,
 		email      VARCHAR(100),
-		id_end     INTEGER,
+		id_endereco     INTEGER,
 		FOREIGN KEY(id_end)
 		REFERENCES ENDERECO(id_end)
 	);
@@ -179,7 +179,7 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 		id_carta         SERIAL PRIMARY KEY,
 		nome_carta        VARCHAR(100),
 		preco            FLOAT,
-		num_colecionador VARCHAR(6),
+		numero_colecionador VARCHAR(6),
 		id_tema          INTEGER,
 		FOREIGN KEY(id_tema)
 		REFERENCES TEMA_CARTA(id_tema_carta),
