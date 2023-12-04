@@ -117,7 +117,7 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 
 ### 6	MODELO LÓGICO<br>
 
-![trabalho_log_final](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/b833c5ba-255b-4001-86b8-49f99c441623)
+![Imagem do WhatsApp de 2023-12-03 à(s) 22 45 30_8cd2e222](https://github.com/EmanuelHSC/Banco-de-dados-T1-Cartas/assets/116691668/257f9a86-0964-419d-8d7e-70fc4110ddcf)
 
 
 ### 7	MODELO FÍSICO<br>
