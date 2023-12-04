@@ -154,7 +154,7 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 	
 	CREATE TABLE IF NOT EXISTS CARTAO(
 		id_cartao  SERIAL PRIMARY KEY,
-		num_cartao VARCHAR(16),
+		numero_cartao VARCHAR(16),
 		id_status  INTEGER,
 		FOREIGN KEY(id_status)
 		REFERENCES STATUS_CARTAO(id_status_cartao),
@@ -177,7 +177,7 @@ O sistema de gestão proposto para jogadores de Trading Card Games (TCG) e colec
 	
 	CREATE TABLE IF NOT EXISTS CARTA(
 		id_carta         SERIAL PRIMARY KEY,
-		nome_card        VARCHAR(100),
+		nome_carta        VARCHAR(100),
 		preco            FLOAT,
 		num_colecionador VARCHAR(6),
 		id_tema          INTEGER,
